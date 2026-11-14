@@ -1,0 +1,16 @@
+PDS_VERSION_ID             = PDS3
+RECORD_TYPE                = UNDEFINED
+
+^JPG_DOCUMENT              = "DBMAP2007S.JPG"
+
+OBJECT                     = JPG_DOCUMENT
+ DOCUMENT_NAME             = "JPEG BROWSE VERSION OF GLOBAL_TI_DAY_2007.IMG"
+ PUBLICATION_DATE          = 2007-01-30
+ DOCUMENT_TOPIC_TYPE       = "BROWSE IMAGE"
+ INTERCHANGE_FORMAT        = BINARY
+ DOCUMENT_FORMAT           = JPG
+ DESCRIPTION               = "This document is a 149 KB jpeg browse version of
+                             global_ti_day_2007."
+END_OBJECT                 = JPG_DOCUMENT
+
+END

@@ -1,0 +1,215 @@
+PDS_VERSION_ID                = PDS3
+LABEL_REVISION_NOTE           = "2009-09-14 GEO:HEET, original;
+                                 2009-11-24 EN:BJS "
+RECORD_TYPE                   = STREAM
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ACUNAETAL2001"
+ REFERENCE_DESC               = "Acuna, M.H., J.E.P. Connerney, 
+     P. Wasilewski, R.P. Lin, D. Mitchell, K.A. Anderson, C.W. Carlson,
+     J. McFadden, H. Reme, C. Mazelle, D. Vignes, S.J. Bauer, P. Cloutier,
+     and N.F. Ness, The Magnetic Field of Mars: Summary of Results from
+     the Aerobraking and Mapping Orbits, Journal of Geophysical Research,
+     106, E10, 23403-23417, 2001."
+END_OBJECT = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ACUNAETAL1992"
+ REFERENCE_DESC               = "Acuna, M.H., J.E.P. Connerney, P. Wasilewski, 
+     R.P. Lin, K.A. Anderson, C.W. Carlson, J. McFadden, D.W. Curtis, H. Reme, 
+     A. Cros, J.L. Medale, J.A. Sauvaud, C. d'Uston, S.J. Bauer, P. Cloutier, 
+     M. Mayhew, and N.F. Ness, Mars Observer Magnetic Fields Investigation, 
+     J. Geophys. Res., 97, p.7799-7814, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ALBEE2001"
+ REFERENCE_DESC               = "Albee, A., Introduction to the
+     special section: the Mars Global Surveyor mission, J. Geophys. Res.,
+     106, E10, 23289, 2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ALBEEETAL2001"
+ REFERENCE_DESC               = "Albee, A.L., R.E. Arvidson,
+     F.D. Palluconi, and T. Thorpe, Overview of the Mars Global 
+     Surveyor mission, J. Geophys. Res., 106, E10, 23291-23316, 2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ALBEEETAL1998"
+ REFERENCE_DESC               = "Albee, A.L., F.D. Palluconi, and R.E. 
+     Arvidson, Mars Global Surveyor Mission: Overview and Status, Science, 
+     279, 1671-1672, 1998."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+REFERENCE_KEY_ID              = "ALBEEETAL1992"
+REFERENCE_DESC                = "Albee, A.L., R.E. Arvidson, and 
+      F.D. Palluconi, Mars Observer Mission, Journal of Geophysical 
+      Research, 97, 7665-7680, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE 
+ REFERENCE_KEY_ID             = "ASMAR&RENZETTI1993"
+ REFERENCE_DESC               = "Asmar, S.W., and N.A. Renzetti, The 
+     Deep Space Network as an Instrument for Radio Science Research 
+     Vol. 80-93 Rev 1, Jet Propulsion Laboratory, Pasadena, CA 1993."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "BOUGHER&KEATING1999"
+ REFERENCE_DESC               = "Bougher, S.W., and G.M. Keating,
+     Mars Global Surveyor aerobraking: atmospheric trends and model 
+     interpretation, Adv. Space Res., 23(11), 1887-1897, 1999."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "CHRISTENSENETAL2001"
+ REFERENCE_DESC               = "Christensen, P.R., J.L. Bandfield,
+     V.E. Hamilton, S.W. Ruff, H.H. Kieffer, T.N. Titus, M.C. Malin, 
+     R.V. Morris, M.D. Lane, R.L. Clark, B.M. Jakosky, M.T. Mellon,
+     J.C. Pearl, B.J. Conrath, M.D. Smith, R.T. Clancy, R.O. Kuzmin,
+     T. Roush, G.L. Mehall, N. Gorelick, K. Bender, K. Murray, S. Dason,
+     E. Greene, S. Silverman, and M. Greenfield, Mars Global Surveyor 
+     Thermal Emission Spectrometer experiment: investigation description
+     and surface science results, J. Geophys. Res., 106, E10, 23823-23871, 
+     2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "CHRISTENSENETAL1992"
+ REFERENCE_DESC               = "Christensen, P.R., D.L. Anderson, 
+      S.C. Chase, R.N. Clark, H.H. Kieffer, M.C. Malin, J.C. Pearl, 
+      J. Carpenter, N. Bandiera, F.G. Brown, and S. Silverman, Thermal 
+      emission spectrometer experiment: Mars Observer mission, 
+      J. Geophys. Res., 97, (E5) 7719-7734, 1992." 
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ESTABROOKETAL1995"
+ REFERENCE_DESC               = "Estabrook, F.B., and
+      H.D. Wahlquist, Response of Doppler Spacecraft Tracking
+      to Gravitational Radiation, Gen. Rel. Grav., 6, 439-447, 
+      1995."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "JPLD-12088"
+ REFERENCE_DESC               = "Mars Global Surveyor 
+      Project, Mission Plan, Final Version (MGS 542-405), 
+      JPL Document D-12088, Jet Propulsion Laboratory, 
+      Pasadena, CA, 1995."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MALINETAL1992"
+ REFERENCE_DESC               = "Malin, M.C., G.E. Danielson, 
+      A.P. Ingersoll, H. Masursky, J. Veverka, M.A. Ravine, and 
+      T.A. Soulanille, Mars Observer Camera, J. Geophys. Res., 97, 
+      7699-7718, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MALIN&EDGETT2001"
+ REFERENCE_DESC               = "Malin, M.C., and K.S. Edgett,
+     Mars Global Surveyor Mars Orbiter Camera: interplanetary cruise 
+     through primary mission, J. Geophys. Res., 106, E10, 23429-23570,
+     2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MARTIN&MURPHY2001"
+ REFERENCE_DESC               = "Martin, T.Z., and J.R. Murphy,
+     A martian year of mapping by the MGS Horizon Science Experiment,
+     Bull. Amer. Astro. Soc., 33, 3, 1072-1073, 2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID              = "MITCHELLETAL2001"
+ REFERENCE_DESC                = "Mitchell, D.L., R.P. Lin, 
+     C. Mazelle, H. Reme, P.A. Cloutier, J.E.P. Connerney, M.H. Acuna,
+     and N.F. Ness, Probing Mars' crustal magnetic field and ionosphere
+     with the MGS Electron Reflectometer, Journal of Geophysical Research,
+     106, E10, 23418-23427, 2001."
+END_OBJECT = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "PUTZIGANDMELLON2007"
+ REFERENCE_DESC               = "Putzig, N.E., and M.T. Mellon, 
+      Apparent thermal inertia and the surface heterogeneity of Mars, 
+      Icarus, 191, 68-94, 2007."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "PUTZIGETAL2005"
+ REFERENCE_DESC               = "Putzig, N.E., M.T. Mellon, 
+      K.A. Kretke, and R.E. Arvidson, Global thermal inertia and 
+      surface properties of Mars from the MGS mapping mission, Icarus, 
+      173, 325-341, 2005."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "SEIDELMANNETAL2002"
+ REFERENCE_DESC               = "Seidelmann, P.K., V.K. Abalakin, 
+      M. Bursa, M.E. Davies, C. de Bergh, J.H. Lieske, J. Oberst, 
+      J.L. Simon, E.M. Standish, P. Stooke, and P.C. Thomas, Report of 
+      the {IAU/IAG} working group on cartographic coordinates and 
+      rotational elements of the planets and satellites: 2000, Cel. 
+      Mech. Dyn. Astron., 82, 83-110, 2002."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "SMITHETAL2001B"
+ REFERENCE_DESC               = "Smith, D.E., M.T. Zuber,
+     H.V. Frey, J.B. Garvin, J.W. Head, D.O. Muhleman, G.H. Pettengill,
+     R.J. Phillips, S.C. Solomon, H.J. Zwally, W.B. Banerdt, T.C. Duxbury, 
+     M.P. Golombek, F.G. Lemoine, G.A. Neumann, D.D. Rowlands, 
+     O. Aharonson, P.G. Ford, A.B. Ivanov, C.L. Johnson, P.J. McGovern, 
+     J.B. Abshire, R.S. Afzal, and X. Sun, Mars Orbiter Laser Altimeter:
+     experiment summary after the first year of global mapping of Mars,
+     J. Geophys. Res., 106, E10, 23689-23722, 2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "SNYDER1987"
+ REFERENCE_DESC               = "Snyder, J.P., Map Projections - A Working 
+ Manual, U. S. Geological Survey Professional Paper 1395, 383 pp., 1987."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "TYLERETAL2001"
+ REFERENCE_DESC               = "Tyler, G.L., G. Balmino,
+     D.P. Hinson, W.L. Sjogren, D.E. Smith, R.A. Simpson, S.W. Asmar,
+     P. Priest, and J.D. Twicken, Radio science observations with
+     Mars Global Surveyor: Orbit insertion through one Mars year in
+     mapping orbit, Journal of Geophysical Research, 106, 
+     23327-23348, 2001."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "TYLERETAL1992"
+ REFERENCE_DESC               = "Tyler, G.L., G. Balmino, D.P. Hinson, 
+      W.L. Sjogren, D.E. Smith, R. Woo, S.W. Asmar, M.J. Connally, 
+      C.L. Hamilton, and R.A. Simpson, Radio Science Investigations 
+      with Mars Observer, Journal of Geophysical Research, 97, 
+      7759-7779, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "WOO1993"
+ REFERENCE_DESC               = "Woo, R., Spacecraft Radio 
+      Scintillation and Solar System Exploration, Wave Propagation in 
+      Random Media (Scintillation), Society of Photo-Optical 
+      Instrumentation Engineers, Bellingham, WA, 1993."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ZUBERETAL1992"
+ REFERENCE_DESC               = "Zuber, M.T., D.E. Smith, S.C. 
+      Solomon, D.O. Muhleman, J.W. Head, J.B. Garvin, J.B. Abshire, 
+      and J.L. Bufton, The Mars Observer Laser Altimeter 
+      Investigation, J. Geophys. Res., 97, 7781-7797, 1992."
+END_OBJECT                    = REFERENCE
+
+END
