@@ -1,9 +1,8 @@
-
 from pathlib import Path
 import numpy as np
 
 # ==========================================
-# 1. НАЛАШТУВАННЯ
+# 1. SETTINGS
 # ==========================================
 
 DATA_DIR = Path(__file__).resolve().parent
@@ -16,7 +15,7 @@ BINS = [5, 50, 100, 150, 200, 250, 300,
 
 
 def find_file(filename):
-    """Знаходить файл у папці та її підпапках."""
+    """Finds a file in the directory and its subdirectories."""
     matches = [
         p for p in DATA_DIR.rglob("*")
         if p.is_file() and p.name.lower() == filename.lower()
@@ -24,14 +23,14 @@ def find_file(filename):
 
     if not matches:
         raise FileNotFoundError(
-            f"Не знайдено файл: {filename}"
+            f"File not found: {filename}"
         )
 
     return matches[0]
 
 
 # ==========================================
-# 2. ЗЧИТУВАННЯ ДАНИХ
+# 2. DATA READING
 # ==========================================
 
 def load_map(filename):
@@ -41,8 +40,8 @@ def load_map(filename):
 
     if data.size != ROWS * COLS:
         raise ValueError(
-            f"Неправильний розмір карти {filename}: "
-            f"{data.size} значень"
+            f"Incorrect map size {filename}: "
+            f"{data.size} values"
         )
 
     return data.reshape((ROWS, COLS))
@@ -55,30 +54,30 @@ def load_mask(filename):
 
     if data.size != ROWS * COLS:
         raise ValueError(
-            f"Неправильний розмір маски {filename}: "
-            f"{data.size} значень"
+            f"Incorrect mask size {filename}: "
+            f"{data.size} values"
         )
 
     return data.reshape((ROWS, COLS))
 
 
 # ==========================================
-# 3. СТАТИСТИКА ОДНІЄЇ КАРТИ
+# 3. STATISTICS FOR ONE MAP
 # ==========================================
 
 def analyze_map(name, data, mask):
 
     print("\n" + "=" * 65)
-    print(f"АНАЛІЗ: {name}")
+    print(f"ANALYSIS: {name}")
     print("=" * 65)
 
     valid = data[mask != 0]
 
-    print("\nРОЗМІР:")
-    print("Карта:", data.shape)
-    print("Маска:", mask.shape)
+    print("\nDIMENSIONS:")
+    print("Map:", data.shape)
+    print("Mask:", mask.shape)
 
-    print("\nМАСКА:")
+    print("\nMASK:")
 
     values, counts = np.unique(
         mask, return_counts=True
@@ -86,19 +85,19 @@ def analyze_map(name, data, mask):
 
     for value, count in zip(values, counts):
         print(
-            f"Значення {value}: "
-            f"{count:,} пікселів "
+            f"Value {value}: "
+            f"{count:,} pixels "
             f"({count / mask.size * 100:.2f}%)"
         )
 
-    print("\nОСНОВНА СТАТИСТИКА:")
-    print("Кількість валідних пікселів:", len(valid))
-    print("Мінімум:", valid.min())
-    print("Максимум:", valid.max())
-    print("Середнє:", round(float(valid.mean()), 2))
-    print("Медіана:", float(np.median(valid)))
+    print("\nMAIN STATISTICS:")
+    print("Number of valid pixels:", len(valid))
+    print("Minimum:", valid.min())
+    print("Maximum:", valid.max())
+    print("Mean:", round(float(valid.mean()), 2))
+    print("Median:", float(np.median(valid)))
 
-    print("\nПЕРЦЕНТИЛІ:")
+    print("\nPERCENTILES:")
 
     for p in [5, 25, 50, 75, 90, 95, 97, 98, 99, 99.5, 99.9]:
         print(
@@ -106,7 +105,7 @@ def analyze_map(name, data, mask):
             f"{np.percentile(valid, p):.2f}"
         )
 
-    print("\nРОЗПОДІЛ ЗНАЧЕНЬ:")
+    print("\nVALUE DISTRIBUTION:")
 
     counts, edges = np.histogram(
         valid, bins=BINS
@@ -117,20 +116,20 @@ def analyze_map(name, data, mask):
 
         print(
             f"{edges[i]:.0f}–{edges[i+1]:.0f}: "
-            f"{counts[i]:,} пікселів "
+            f"{counts[i]:,} pixels "
             f"({percentage:.2f}%)"
         )
 
-    print("\nВИСОКІ ЗНАЧЕННЯ (>1000):")
+    print("\nHIGH VALUES (>1000):")
 
     high = valid[valid > 1000]
 
-    print("Кількість:", len(high))
+    print("Count:", len(high))
 
     if len(high) > 0:
-        print("Мінімум:", high.min())
-        print("Максимум:", high.max())
-        print("Середнє:", round(float(high.mean()), 2))
+        print("Minimum:", high.min())
+        print("Maximum:", high.max())
+        print("Mean:", round(float(high.mean()), 2))
 
         unique, freq = np.unique(
             high, return_counts=True
@@ -138,71 +137,71 @@ def analyze_map(name, data, mask):
 
         order = np.argsort(freq)[::-1]
 
-        print("15 найчастіших значень:")
+        print("15 most frequent values:")
 
         for i in order[:15]:
             print(
-                f"{unique[i]}: {freq[i]:,} пікселів"
+                f"{unique[i]}: {freq[i]:,} pixels"
             )
 
     return valid
 
 
 # ==========================================
-# 4. ЗАВАНТАЖЕННЯ НІЧНОЇ ТА ДЕННОЇ КАРТ
+# 4. LOADING NIGHTTIME AND DAYTIME MAPS
 # ==========================================
 
 print("=" * 65)
-print("NASA MGS TES — АНАЛІЗ ТЕПЛОВОЇ ІНЕРЦІЇ МАРСА")
+print("NASA MGS TES — ANALYSIS OF MARTIAN THERMAL INERTIA")
 print("=" * 65)
 
-print("\nЗавантажуємо нічну карту...")
+print("\nLoading the nighttime map...")
 night = load_map("global_ti_night_2007.img")
 
-print("Завантажуємо нічну маску...")
+print("Loading the nighttime mask...")
 night_mask = load_mask("global_ti_msk_night_2007.img")
 
-print("Завантажуємо денну карту...")
+print("Loading the daytime map...")
 day = load_map("global_ti_day_2007.img")
 
-print("Завантажуємо денну маску...")
+print("Loading the daytime mask...")
 day_mask = load_mask("global_ti_msk_day_2007.img")
 
-print("\nУсі чотири файли успішно зчитано!")
+print("\nAll four files have been read successfully!")
 
 
 # ==========================================
-# 5. АНАЛІЗ НІЧНОЇ КАРТИ
+# 5. NIGHTTIME MAP ANALYSIS
 # ==========================================
 
 night_valid = analyze_map(
-    "НІЧНА ТЕПЛОВА ІНЕРЦІЯ",
+    "NIGHTTIME THERMAL INERTIA",
     night,
     night_mask
 )
 
 
 # ==========================================
-# 6. АНАЛІЗ ДЕННОЇ КАРТИ
+# 6. DAYTIME MAP ANALYSIS
 # ==========================================
 
 day_valid = analyze_map(
-    "ДЕННА ТЕПЛОВА ІНЕРЦІЯ",
+    "DAYTIME THERMAL INERTIA",
     day,
     day_mask
 )
 
 
 # ==========================================
-# 7. ПОРІВНЯННЯ ДЕННОЇ ТА НІЧНОЇ КАРТ
+# 7. COMPARISON OF DAYTIME AND NIGHTTIME MAPS
 # ==========================================
 
 print("\n" + "=" * 65)
-print("ПОРІВНЯННЯ ДЕННОЇ ТА НІЧНОЇ КАРТ")
+print("COMPARISON OF DAYTIME AND NIGHTTIME MAPS")
 print("=" * 65)
 
-# Беремо тільки пікселі, які не інтерпольовані
-# в обох картах одночасно.
+# Use only pixels that are not interpolated
+# in either of the two maps.
 
 common_mask = (
     (night_mask != 0) &
@@ -211,13 +210,13 @@ common_mask = (
 
 common_count = int(np.count_nonzero(common_mask))
 
-print("\nСпільних валідних пікселів:", f"{common_count:,}")
+print("\nNumber of common valid pixels:", f"{common_count:,}")
 print(
-    "Частка від усієї карти:",
+    "Percentage of the entire map:",
     f"{common_count / common_mask.size * 100:.2f}%"
 )
 
-# Порівняння на спільних пікселях
+# Comparison using common pixels
 night_common = night[common_mask]
 day_common = day[common_mask]
 
@@ -226,21 +225,21 @@ difference = (
     night_common.astype(np.int32)
 )
 
-print("\nНІЧНІ ЗНАЧЕННЯ НА СПІЛЬНИХ ПІКСЕЛЯХ:")
-print("Середнє:", round(float(night_common.mean()), 2))
-print("Медіана:", float(np.median(night_common)))
+print("\nNIGHTTIME VALUES AT COMMON PIXELS:")
+print("Mean:", round(float(night_common.mean()), 2))
+print("Median:", float(np.median(night_common)))
 
-print("\nДЕННІ ЗНАЧЕННЯ НА СПІЛЬНИХ ПІКСЕЛЯХ:")
-print("Середнє:", round(float(day_common.mean()), 2))
-print("Медіана:", float(np.median(day_common)))
+print("\nDAYTIME VALUES AT COMMON PIXELS:")
+print("Mean:", round(float(day_common.mean()), 2))
+print("Median:", float(np.median(day_common)))
 
-print("\nРІЗНИЦЯ (ДЕНЬ - НІЧ):")
-print("Мінімум:", int(difference.min()))
-print("Максимум:", int(difference.max()))
-print("Середнє:", round(float(difference.mean()), 2))
-print("Медіана:", float(np.median(difference)))
+print("\nDIFFERENCE (DAY - NIGHT):")
+print("Minimum:", int(difference.min()))
+print("Maximum:", int(difference.max()))
+print("Mean:", round(float(difference.mean()), 2))
+print("Median:", float(np.median(difference)))
 
-print("\nПЕРЦЕНТИЛІ РІЗНИЦІ:")
+print("\nDIFFERENCE PERCENTILES:")
 
 for p in [5, 25, 50, 75, 95]:
     print(
@@ -248,8 +247,8 @@ for p in [5, 25, 50, 75, 95]:
         f"{np.percentile(difference, p):.2f}"
     )
 
-# Кореляція на рівномірній вибірці пікселів
-# Щоб не витрачати зайву пам'ять.
+# Correlation using a uniform sample of pixels
+# To avoid unnecessary memory usage.
 
 flat_indices = np.flatnonzero(
     common_mask.ravel()
@@ -262,44 +261,44 @@ correlation = np.corrcoef(
     night_sample, day_sample
 )[0, 1]
 
-print("\nКОРЕЛЯЦІЯ ДЕННИХ І НІЧНИХ ДАНИХ:")
-print("Коефіцієнт Пірсона:", round(float(correlation), 4))
-print("Кількість точок у вибірці:", len(flat_indices))
+print("\nCORRELATION BETWEEN DAYTIME AND NIGHTTIME DATA:")
+print("Pearson correlation coefficient:", round(float(correlation), 4))
+print("Number of sample points:", len(flat_indices))
 
 
 # ==========================================
-# 8. ЗАВЕРШЕННЯ
+# 8. COMPLETION
 # ==========================================
 
 print("\n" + "=" * 65)
-print("АНАЛІЗ ЗАВЕРШЕНО УСПІШНО!")
+print("ANALYSIS COMPLETED SUCCESSFULLY!")
 print("=" * 65)
 
 
 # ==========================================
-# 9. ДОДАТКОВА ПЕРЕВІРКА МАСОК І ДІАПАЗОНІВ
+# 9. ADDITIONAL CHECK OF MASKS AND VALUE RANGES
 # ==========================================
 
 print("\n" + "=" * 65)
-print("ДОДАТКОВА ПЕРЕВІРКА")
+print("ADDITIONAL CHECK")
 print("=" * 65)
 
-# 20 пікселів на градус.
-# Від 90°N до 87°N — 60 рядків.
-# Від 87°S до 90°S — останні 60 рядків.
+# 20 pixels per degree.
+# From 90°N to 87°N — 60 rows.
+# From 87°S to 90°S — the last 60 rows.
 
 inside = slice(60, 3540)
 
 for name, mask in [
-    ("Нічна маска", night_mask),
-    ("Денна маска", day_mask)
+    ("Nighttime mask", night_mask),
+    ("Daytime mask", day_mask)
 ]:
     print(f"\n{name}:")
 
     for region_name, region in [
-        ("Уся карта", mask),
-        ("Між 87°N та 87°S", mask[inside]),
-        ("Полярні області поза 87°", np.concatenate([
+        ("Entire map", mask),
+        ("Between 87°N and 87°S", mask[inside]),
+        ("Polar regions beyond 87°", np.concatenate([
             mask[:60].ravel(),
             mask[3540:].ravel()
         ]))
@@ -309,27 +308,27 @@ for name, mask in [
 
         print(
             f"{region_name}: "
-            f"нульових = {zeros:,} "
+            f"zero values = {zeros:,} "
             f"({zeros / total * 100:.2f}%)"
         )
 
-# Перевірка крайніх значень карт
+# Check the extreme values of the maps
 for name, data, mask in [
-    ("Нічна", night, night_mask),
-    ("Денна", day, day_mask)
+    ("Nighttime", night, night_mask),
+    ("Daytime", day, day_mask)
 ]:
     valid = data[mask != 0]
 
-    print(f"\n{name} карта — крайні значення:")
+    print(f"\n{name} map — extreme values:")
 
     for value in [0, 1, 5, 4999, 5000, 32767, -32768]:
         print(
             f"{value}: "
-            f"{np.count_nonzero(valid == value):,} пікселів"
+            f"{np.count_nonzero(valid == value):,} pixels"
         )
 
-# Перевірка опису денної маски
-print("\nОПИС ДЕННОЇ МАСКИ:")
+# Check the description of the daytime mask
+print("\nDAYTIME MASK DESCRIPTION:")
 
 day_mask_label = find_file("global_ti_msk_day_2007.lbl")
 
@@ -353,4 +352,4 @@ for line in label_text.splitlines():
     ):
         print(line.strip())
 
-print("\nДОДАТКОВУ ПЕРЕВІРКУ ЗАВЕРШЕНО")
+print("\nADDITIONAL CHECK COMPLETED")

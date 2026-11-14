@@ -1,6 +1,5 @@
 import numpy as np
 import rasterio
-from rasterio.transform import from_origin
 
 from pathlib import Path
 from rasterio.transform import from_origin
@@ -14,8 +13,8 @@ with open(FILE, "rb") as f:
 
 data = data.reshape((3600, 7200))
 
-print("Розмір:", data.shape)
-print("Класи:", np.unique(data, return_counts=True))
+print("Dimensions:", data.shape)
+print("Classes:", np.unique(data, return_counts=True))
 
 with open(FILE, "rb") as f:
     header = f.read(7200)
@@ -23,20 +22,20 @@ with open(FILE, "rb") as f:
 print(header.decode("ascii", errors="replace"))
 
 
-# Переводимо широти у порядок від півночі до півдня
+# Convert latitude values to run from north to south
 data = np.flipud(data)
 
-# Переводимо довготи із західної системи у звичну:
-# від -180° до +180°
+# Convert longitude values from the western longitude system
+# to the standard range from -180° to +180°
 data = np.concatenate((
     data[:, :3600][:, ::-1],
     data[:, 3600:][:, ::-1]
 ), axis=1)
 
-# Радіус Марса
+# Radius of Mars
 R = 3396000
 
-# Географічна прив'язка
+# Geographic reference
 transform = from_origin(
     -np.pi * R,
     np.pi * R / 2,
@@ -61,4 +60,4 @@ with rasterio.open(
 ) as dst:
     dst.write(data, 1)
 
-print("Готово! Створено:", output_path.resolve())
+print("Done! Created:", output_path.resolve())

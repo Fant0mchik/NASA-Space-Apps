@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 import numpy as np
@@ -8,7 +7,7 @@ from rasterio.crs import CRS
 
 
 # ==========================================
-# 1. НАЛАШТУВАННЯ
+# 1. SETTINGS
 # ==========================================
 
 DATA_DIR = Path(__file__).resolve().parent
@@ -18,21 +17,21 @@ COLS = 7200
 
 MARS_RADIUS = 3_396_000
 
-# Межі класів, отримані з аналізу нічної карти
+# Class thresholds obtained from the analysis of the nighttime map
 THRESHOLDS = [128, 207, 263, 407]
 
 CLASS_NAMES = {
-    0: "Немає покриття",
-    1: "Дуже низька теплова інерція",
-    2: "Низька теплова інерція",
-    3: "Середня теплова інерція",
-    4: "Висока теплова інерція",
-    5: "Дуже висока теплова інерція",
+    0: "No coverage",
+    1: "Very low thermal inertia",
+    2: "Low thermal inertia",
+    3: "Medium thermal inertia",
+    4: "High thermal inertia",
+    5: "Very high thermal inertia",
 }
 
 
 # ==========================================
-# 2. ПОШУК І ЗАВАНТАЖЕННЯ ФАЙЛІВ
+# 2. FINDING AND LOADING FILES
 # ==========================================
 
 def find_file(filename):
@@ -43,13 +42,13 @@ def find_file(filename):
 
     if not matches:
         raise FileNotFoundError(
-            f"Не знайдено файл: {filename}"
+            f"File not found: {filename}"
         )
 
     return matches[0]
 
 
-print("Завантаження нічної карти TES...")
+print("Loading the TES nighttime map...")
 
 thermal_path = find_file("global_ti_night_2007.img")
 mask_path = find_file("global_ti_msk_night_2007.img")
@@ -66,13 +65,13 @@ mask = np.fromfile(
 
 
 # ==========================================
-# 3. КЛАСИФІКАЦІЯ
+# 3. CLASSIFICATION
 # ==========================================
 
-print("Класифікація поверхні...")
+print("Classifying the surface...")
 
-# 0 — пікселі поза основною зоною покриття.
-# 1–5 — класи теплової інерції.
+# 0 — pixels outside the main coverage area.
+# 1–5 — thermal inertia classes.
 
 classes = (
     np.digitize(
@@ -81,16 +80,16 @@ classes = (
     ) + 1
 ).astype(np.uint8)
 
-# 20 пікселів на градус.
-# Рядки 60–3539 відповідають широтам між 87°N та 87°S.
+# 20 pixels per degree.
+# Rows 60–3539 correspond to latitudes between 87°N and 87°S.
 
 classes[:60, :] = 0
 classes[3540:, :] = 0
 
-# Окрема інформація про якість даних:
-# 1 — неінтерпольований піксель;
-# 0 — інтерпольований піксель;
-# 255 — поза зоною покриття.
+# Separate data quality information:
+# 1 — non-interpolated pixel;
+# 0 — interpolated pixel;
+# 255 — outside the coverage area.
 
 quality = np.full(
     (ROWS, COLS),
@@ -102,7 +101,7 @@ quality[60:3540, :] = mask[60:3540, :]
 
 
 # ==========================================
-# 4. СТВОРЕННЯ ГЕОГРАФІЧНОЇ ПРИВ'ЯЗКИ
+# 4. CREATING THE GEOGRAPHIC REFERENCE
 # ==========================================
 
 pixel_size_x = (
@@ -133,12 +132,12 @@ mars_crs = CRS.from_proj4(
 
 
 # ==========================================
-# 5. ЗБЕРЕЖЕННЯ РЕЗУЛЬТАТУ
+# 5. SAVING THE RESULT
 # ==========================================
 
 output_path = DATA_DIR / "TES_thermal_classes.tif"
 
-print("Збереження GeoTIFF...")
+print("Saving the GeoTIFF...")
 
 with rasterio.open(
     output_path,
@@ -168,11 +167,11 @@ with rasterio.open(
 
 
 # ==========================================
-# 6. РЕЗУЛЬТАТИ
+# 6. RESULTS
 # ==========================================
 
 print("\n" + "=" * 55)
-print("КЛАСИФІКАЦІЮ ЗАВЕРШЕНО!")
+print("CLASSIFICATION COMPLETED!")
 print("=" * 55)
 
 for code, name in CLASS_NAMES.items():
@@ -180,19 +179,19 @@ for code, name in CLASS_NAMES.items():
     count = np.count_nonzero(classes == code)
 
     print(
-        f"\nКлас {code}: {name}"
+        f"\nClass {code}: {name}"
     )
 
     print(
-        f"Пікселів: {count:,}"
+        f"Pixels: {count:,}"
     )
 
     if code != 0:
         total = np.count_nonzero(classes != 0)
 
         print(
-            f"Частка: {count / total * 100:.2f}%"
+            f"Share: {count / total * 100:.2f}%"
         )
 
-print("\nФайл створено:")
+print("\nFile created:")
 print(output_path)
