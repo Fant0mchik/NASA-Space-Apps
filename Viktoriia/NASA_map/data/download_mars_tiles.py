@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import requests
 
@@ -27,6 +26,6 @@ for filename in tiles:
     file_path = OUTPUT_DIR / filename
     file_path.write_bytes(response.content)
 
-    print(f"Завантажено: {filename}")
+    print(f"Downloaded: {filename}")
 
-print("\nУсі 8 фрагментів завантажено!")
+print("\nAll 8 tiles have been downloaded!")

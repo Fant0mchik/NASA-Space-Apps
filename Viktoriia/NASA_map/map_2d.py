@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 from config import MAP_PATH, OUTPUT_DIR
 
-# Завантаження карти
+# Load the geological map
 mars = gpd.read_file(MAP_PATH)
 
 fig, ax = plt.subplots(figsize=(16, 10))

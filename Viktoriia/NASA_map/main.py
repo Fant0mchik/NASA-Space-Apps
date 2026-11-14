@@ -13,4 +13,4 @@ runpy.run_path(str(PROJECT_DIR / "globe_3d.py"), run_name="__main__")
 if HTML_PATH.exists():
     webbrowser.open(HTML_PATH.as_uri())
 else:
-    print("Помилка: HTML-карту не знайдено.")
+    print("Not found")

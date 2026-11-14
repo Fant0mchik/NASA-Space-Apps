@@ -10,7 +10,7 @@ from config import OUTPUT_DIR
 
 
 # ==========================================
-# 1. НАЛАШТУВАННЯ
+# 1. Settings
 # ==========================================
 
 R = 3396190
@@ -30,7 +30,7 @@ TES_PATH = (
 
 
 # ==========================================
-# 2. ЗАГАЛЬНА ФУНКЦІЯ КООРДИНАТ СФЕРИ
+# 2. SPHERE COORDINATES
 # ==========================================
 
 def create_sphere_coordinates(latitudes, longitudes):
@@ -51,7 +51,7 @@ def create_sphere_coordinates(latitudes, longitudes):
 
 
 # ==========================================
-# 3. СТВОРЕННЯ ТРИКУТНИКІВ СФЕРИ
+# 3. SPHERE TRIANGLE GENERATION
 # ==========================================
 
 def create_sphere_faces(rows, columns):
@@ -93,7 +93,7 @@ if not MARS_IMAGE_PATH.exists():
 
 image = Image.open(MARS_IMAGE_PATH).convert("RGB")
 
-# Зменшуємо текстуру для 3D-візуалізації
+# Resize the texture for 3D visualization
 image = image.resize(
     (361, 181),
     Image.Resampling.LANCZOS
@@ -106,7 +106,7 @@ vertex_colors = [
     for r, g, b in mars_colors.reshape(-1, 3)
 ]
 
-# Координати глобуса
+# Globe coordinates
 latitudes = np.linspace(90, -90, 181)
 longitudes = np.linspace(-180, 180, 361)
 
@@ -115,7 +115,7 @@ x, y, z = create_sphere_coordinates(
     longitudes
 )
 
-# Трикутники
+# Triangles
 i, j, k = create_sphere_faces(181, 361)
 
 print("Mars Globe vertices:", len(x))
@@ -136,10 +136,10 @@ if not TES_PATH.exists():
 with rasterio.open(TES_PATH) as src:
     tes_classes = src.read(1)
 
-# Зменшуємо роздільність до приблизно 1 градуса
+# Reduce the resolution to approximately 1 degree
 tes_small = tes_classes[10::20, 10::20]
 
-# Кольори класів
+# Class colors
 tes_colors = {
     250: "#d73027",
     208: "#4575b4",
@@ -151,7 +151,7 @@ tes_colors = {
     0: "#808080"
 }
 
-# Назви класів
+# Class names   
 tes_names = {
     250: "F — Rocks, bedrock, duricrust and polar ice",
     208: "G — Fine material with thin thermal cover",
@@ -219,7 +219,7 @@ if len(tes_faces) == 0:
 
 
 # ==========================================
-# 6. СТВОРЕННЯ ГЛОБУСА
+# 6. GLOBE CREATION
 # ==========================================
 
 fig = go.Figure()
@@ -286,7 +286,7 @@ fig.add_trace(go.Mesh3d(
 
 
 # ==========================================
-# 7. ЛЕГЕНДА TES
+# 7. TES LEGEND
 # ==========================================
 
 for class_id, name in tes_names.items():
@@ -327,13 +327,13 @@ fig.add_trace(go.Scatter3d(
 
 
 # ==========================================
-# 8. ПЕРЕМИКАННЯ МІЖ РЕЖИМАМИ
+# 8. SWITCHING BETWEEN VISUALIZATION MODES
 # ==========================================
 
-# Усього 10 елементів:
+# Total of 10 elements:
 # 1 Mars Globe
 # 1 TES surface
-# 7 класів TES
+# 7 TES classes
 # 1 No data
 
 globe_visibility = (
@@ -393,13 +393,13 @@ fig.update_layout(
         )
     ]
 )
-# Початково показуємо тільки кольоровий глобус
+# Initially, only the color globe is displayed
 for i, visible in enumerate(globe_visibility):
     fig.data[i].visible = visible
 
 
 # ==========================================
-# 9. ОФОРМЛЕННЯ
+# 9. VISUAL STYLING
 # ==========================================
 
 fig.update_layout(
@@ -444,7 +444,7 @@ fig.update_layout(
 
 
 # ==========================================
-# 10. ЗБЕРЕЖЕННЯ HTML
+# 10. HTML EXPORT
 # ==========================================
 
 OUTPUT_DIR.mkdir(exist_ok=True)
