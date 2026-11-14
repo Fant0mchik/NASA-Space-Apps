@@ -1,0 +1,6340 @@
+{
+  "format_version": 1,
+  "created_utc": "2026-11-14T12:51:26.847047+00:00",
+  "source": "D:\\Visual Studio Code Projects\\NASA Space Apps\\data\\gale_hrsc.tif",
+  "source_url": null,
+  "source_files": [
+    "data\\gale_hrsc.tif"
+  ],
+  "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",3396190,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "source_transform": [
+    30.0,
+    0.0,
+    8054872.398099138,
+    0.0,
+    -30.0,
+    -176868.30708358268
+  ],
+  "source_dtype": "float32",
+  "source_nodata": "-32768.0",
+  "nodata_override_raw": "None",
+  "scale_applied": 1.0,
+  "offset_applied": 0.0,
+  "height_unit": "m",
+  "source_band_unit": null,
+  "source_tags": {
+    "AREA_OR_POINT": "Area"
+  },
+  "source_band_tags": {},
+  "pixel_window": [
+    0,
+    0,
+    7584,
+    10275
+  ],
+  "sector_size": 512,
+  "resampled": false,
+  "sectors": [
+    {
+      "sector_x": 0,
+      "sector_y": 0,
+      "file": "sector_0_0.npz",
+      "source_col": 0,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 0,
+      "file": "sector_1_0.npz",
+      "source_col": 512,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 0,
+      "file": "sector_2_0.npz",
+      "source_col": 1024,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 0,
+      "file": "sector_3_0.npz",
+      "source_col": 1536,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 0,
+      "file": "sector_4_0.npz",
+      "source_col": 2048,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 134696
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 0,
+      "file": "sector_5_0.npz",
+      "source_col": 2560,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 261120
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 0,
+      "file": "sector_6_0.npz",
+      "source_col": 3072,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 261359
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 0,
+      "file": "sector_7_0.npz",
+      "source_col": 3584,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 261632
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 0,
+      "file": "sector_8_0.npz",
+      "source_col": 4096,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 261632
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 0,
+      "file": "sector_9_0.npz",
+      "source_col": 4608,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 202134
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 0,
+      "file": "sector_10_0.npz",
+      "source_col": 5120,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 0,
+      "file": "sector_11_0.npz",
+      "source_col": 5632,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 0,
+      "file": "sector_12_0.npz",
+      "source_col": 6144,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 0,
+      "file": "sector_13_0.npz",
+      "source_col": 6656,
+      "source_row": 0,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 0,
+      "file": "sector_14_0.npz",
+      "source_col": 7168,
+      "source_row": 0,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -176868.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 1,
+      "file": "sector_0_1.npz",
+      "source_col": 0,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 1,
+      "file": "sector_1_1.npz",
+      "source_col": 512,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 1,
+      "file": "sector_2_1.npz",
+      "source_col": 1024,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 1,
+      "file": "sector_3_1.npz",
+      "source_col": 1536,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 1,
+      "file": "sector_4_1.npz",
+      "source_col": 2048,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 137842
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 1,
+      "file": "sector_5_1.npz",
+      "source_col": 2560,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 1,
+      "file": "sector_6_1.npz",
+      "source_col": 3072,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 1,
+      "file": "sector_7_1.npz",
+      "source_col": 3584,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 1,
+      "file": "sector_8_1.npz",
+      "source_col": 4096,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 1,
+      "file": "sector_9_1.npz",
+      "source_col": 4608,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 208321
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 1,
+      "file": "sector_10_1.npz",
+      "source_col": 5120,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 1,
+      "file": "sector_11_1.npz",
+      "source_col": 5632,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 1,
+      "file": "sector_12_1.npz",
+      "source_col": 6144,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 1,
+      "file": "sector_13_1.npz",
+      "source_col": 6656,
+      "source_row": 512,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 1,
+      "file": "sector_14_1.npz",
+      "source_col": 7168,
+      "source_row": 512,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -192228.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 2,
+      "file": "sector_0_2.npz",
+      "source_col": 0,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 2,
+      "file": "sector_1_2.npz",
+      "source_col": 512,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 2,
+      "file": "sector_2_2.npz",
+      "source_col": 1024,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 2,
+      "file": "sector_3_2.npz",
+      "source_col": 1536,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 2,
+      "file": "sector_4_2.npz",
+      "source_col": 2048,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 140466
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 2,
+      "file": "sector_5_2.npz",
+      "source_col": 2560,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 2,
+      "file": "sector_6_2.npz",
+      "source_col": 3072,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 2,
+      "file": "sector_7_2.npz",
+      "source_col": 3584,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 2,
+      "file": "sector_8_2.npz",
+      "source_col": 4096,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 2,
+      "file": "sector_9_2.npz",
+      "source_col": 4608,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 214258
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 2,
+      "file": "sector_10_2.npz",
+      "source_col": 5120,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 2,
+      "file": "sector_11_2.npz",
+      "source_col": 5632,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 2,
+      "file": "sector_12_2.npz",
+      "source_col": 6144,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 2,
+      "file": "sector_13_2.npz",
+      "source_col": 6656,
+      "source_row": 1024,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 2,
+      "file": "sector_14_2.npz",
+      "source_col": 7168,
+      "source_row": 1024,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -207588.30708358268
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 3,
+      "file": "sector_0_3.npz",
+      "source_col": 0,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 181716
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 3,
+      "file": "sector_1_3.npz",
+      "source_col": 512,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 222720
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 3,
+      "file": "sector_2_3.npz",
+      "source_col": 1024,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 222239
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 3,
+      "file": "sector_3_3.npz",
+      "source_col": 1536,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 222208
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 3,
+      "file": "sector_4_3.npz",
+      "source_col": 2048,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 243649
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 3,
+      "file": "sector_5_3.npz",
+      "source_col": 2560,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 3,
+      "file": "sector_6_3.npz",
+      "source_col": 3072,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 3,
+      "file": "sector_7_3.npz",
+      "source_col": 3584,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 3,
+      "file": "sector_8_3.npz",
+      "source_col": 4096,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 3,
+      "file": "sector_9_3.npz",
+      "source_col": 4608,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 259662
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 3,
+      "file": "sector_10_3.npz",
+      "source_col": 5120,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 249344
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 3,
+      "file": "sector_11_3.npz",
+      "source_col": 5632,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 252319
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 3,
+      "file": "sector_12_3.npz",
+      "source_col": 6144,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 255296
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 3,
+      "file": "sector_13_3.npz",
+      "source_col": 6656,
+      "source_row": 1536,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 258282
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 3,
+      "file": "sector_14_3.npz",
+      "source_col": 7168,
+      "source_row": 1536,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -222948.30708358268
+      ],
+      "valid_count": 123274
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 4,
+      "file": "sector_0_4.npz",
+      "source_col": 0,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 216219
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 4,
+      "file": "sector_1_4.npz",
+      "source_col": 512,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 4,
+      "file": "sector_2_4.npz",
+      "source_col": 1024,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 4,
+      "file": "sector_3_4.npz",
+      "source_col": 1536,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 4,
+      "file": "sector_4_4.npz",
+      "source_col": 2048,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 4,
+      "file": "sector_5_4.npz",
+      "source_col": 2560,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 4,
+      "file": "sector_6_4.npz",
+      "source_col": 3072,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 4,
+      "file": "sector_7_4.npz",
+      "source_col": 3584,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 4,
+      "file": "sector_8_4.npz",
+      "source_col": 4096,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 4,
+      "file": "sector_9_4.npz",
+      "source_col": 4608,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 4,
+      "file": "sector_10_4.npz",
+      "source_col": 5120,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 4,
+      "file": "sector_11_4.npz",
+      "source_col": 5632,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 4,
+      "file": "sector_12_4.npz",
+      "source_col": 6144,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 4,
+      "file": "sector_13_4.npz",
+      "source_col": 6656,
+      "source_row": 2048,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 4,
+      "file": "sector_14_4.npz",
+      "source_col": 7168,
+      "source_row": 2048,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -238308.30708358268
+      ],
+      "valid_count": 130643
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 5,
+      "file": "sector_0_5.npz",
+      "source_col": 0,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 218756
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 5,
+      "file": "sector_1_5.npz",
+      "source_col": 512,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 5,
+      "file": "sector_2_5.npz",
+      "source_col": 1024,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 5,
+      "file": "sector_3_5.npz",
+      "source_col": 1536,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 5,
+      "file": "sector_4_5.npz",
+      "source_col": 2048,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 5,
+      "file": "sector_5_5.npz",
+      "source_col": 2560,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 5,
+      "file": "sector_6_5.npz",
+      "source_col": 3072,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 5,
+      "file": "sector_7_5.npz",
+      "source_col": 3584,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 5,
+      "file": "sector_8_5.npz",
+      "source_col": 4096,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 5,
+      "file": "sector_9_5.npz",
+      "source_col": 4608,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 5,
+      "file": "sector_10_5.npz",
+      "source_col": 5120,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 5,
+      "file": "sector_11_5.npz",
+      "source_col": 5632,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 5,
+      "file": "sector_12_5.npz",
+      "source_col": 6144,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 5,
+      "file": "sector_13_5.npz",
+      "source_col": 6656,
+      "source_row": 2560,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 5,
+      "file": "sector_14_5.npz",
+      "source_col": 7168,
+      "source_row": 2560,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -253668.30708358268
+      ],
+      "valid_count": 137229
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 6,
+      "file": "sector_0_6.npz",
+      "source_col": 0,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 221295
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 6,
+      "file": "sector_1_6.npz",
+      "source_col": 512,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 6,
+      "file": "sector_2_6.npz",
+      "source_col": 1024,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 6,
+      "file": "sector_3_6.npz",
+      "source_col": 1536,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 6,
+      "file": "sector_4_6.npz",
+      "source_col": 2048,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 6,
+      "file": "sector_5_6.npz",
+      "source_col": 2560,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 6,
+      "file": "sector_6_6.npz",
+      "source_col": 3072,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 6,
+      "file": "sector_7_6.npz",
+      "source_col": 3584,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 6,
+      "file": "sector_8_6.npz",
+      "source_col": 4096,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 6,
+      "file": "sector_9_6.npz",
+      "source_col": 4608,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 6,
+      "file": "sector_10_6.npz",
+      "source_col": 5120,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 6,
+      "file": "sector_11_6.npz",
+      "source_col": 5632,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 6,
+      "file": "sector_12_6.npz",
+      "source_col": 6144,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 6,
+      "file": "sector_13_6.npz",
+      "source_col": 6656,
+      "source_row": 3072,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 6,
+      "file": "sector_14_6.npz",
+      "source_col": 7168,
+      "source_row": 3072,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -269028.3070835827
+      ],
+      "valid_count": 143829
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 7,
+      "file": "sector_0_7.npz",
+      "source_col": 0,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 223833
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 7,
+      "file": "sector_1_7.npz",
+      "source_col": 512,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 7,
+      "file": "sector_2_7.npz",
+      "source_col": 1024,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 7,
+      "file": "sector_3_7.npz",
+      "source_col": 1536,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 7,
+      "file": "sector_4_7.npz",
+      "source_col": 2048,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 7,
+      "file": "sector_5_7.npz",
+      "source_col": 2560,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 7,
+      "file": "sector_6_7.npz",
+      "source_col": 3072,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 7,
+      "file": "sector_7_7.npz",
+      "source_col": 3584,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 7,
+      "file": "sector_8_7.npz",
+      "source_col": 4096,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 7,
+      "file": "sector_9_7.npz",
+      "source_col": 4608,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 7,
+      "file": "sector_10_7.npz",
+      "source_col": 5120,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 7,
+      "file": "sector_11_7.npz",
+      "source_col": 5632,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 7,
+      "file": "sector_12_7.npz",
+      "source_col": 6144,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 7,
+      "file": "sector_13_7.npz",
+      "source_col": 6656,
+      "source_row": 3584,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 7,
+      "file": "sector_14_7.npz",
+      "source_col": 7168,
+      "source_row": 3584,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -284388.3070835827
+      ],
+      "valid_count": 150418
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 8,
+      "file": "sector_0_8.npz",
+      "source_col": 0,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 226370
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 8,
+      "file": "sector_1_8.npz",
+      "source_col": 512,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 8,
+      "file": "sector_2_8.npz",
+      "source_col": 1024,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 8,
+      "file": "sector_3_8.npz",
+      "source_col": 1536,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 8,
+      "file": "sector_4_8.npz",
+      "source_col": 2048,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 8,
+      "file": "sector_5_8.npz",
+      "source_col": 2560,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 8,
+      "file": "sector_6_8.npz",
+      "source_col": 3072,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 8,
+      "file": "sector_7_8.npz",
+      "source_col": 3584,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 8,
+      "file": "sector_8_8.npz",
+      "source_col": 4096,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 8,
+      "file": "sector_9_8.npz",
+      "source_col": 4608,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 8,
+      "file": "sector_10_8.npz",
+      "source_col": 5120,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 8,
+      "file": "sector_11_8.npz",
+      "source_col": 5632,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 8,
+      "file": "sector_12_8.npz",
+      "source_col": 6144,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 8,
+      "file": "sector_13_8.npz",
+      "source_col": 6656,
+      "source_row": 4096,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 8,
+      "file": "sector_14_8.npz",
+      "source_col": 7168,
+      "source_row": 4096,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -299748.3070835827
+      ],
+      "valid_count": 157007
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 9,
+      "file": "sector_0_9.npz",
+      "source_col": 0,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 228907
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 9,
+      "file": "sector_1_9.npz",
+      "source_col": 512,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 9,
+      "file": "sector_2_9.npz",
+      "source_col": 1024,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 9,
+      "file": "sector_3_9.npz",
+      "source_col": 1536,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 9,
+      "file": "sector_4_9.npz",
+      "source_col": 2048,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 9,
+      "file": "sector_5_9.npz",
+      "source_col": 2560,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 9,
+      "file": "sector_6_9.npz",
+      "source_col": 3072,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 9,
+      "file": "sector_7_9.npz",
+      "source_col": 3584,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 9,
+      "file": "sector_8_9.npz",
+      "source_col": 4096,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 9,
+      "file": "sector_9_9.npz",
+      "source_col": 4608,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 9,
+      "file": "sector_10_9.npz",
+      "source_col": 5120,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 9,
+      "file": "sector_11_9.npz",
+      "source_col": 5632,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 9,
+      "file": "sector_12_9.npz",
+      "source_col": 6144,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 9,
+      "file": "sector_13_9.npz",
+      "source_col": 6656,
+      "source_row": 4608,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 9,
+      "file": "sector_14_9.npz",
+      "source_col": 7168,
+      "source_row": 4608,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -315108.3070835827
+      ],
+      "valid_count": 163598
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 10,
+      "file": "sector_0_10.npz",
+      "source_col": 0,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 231446
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 10,
+      "file": "sector_1_10.npz",
+      "source_col": 512,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 10,
+      "file": "sector_2_10.npz",
+      "source_col": 1024,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 10,
+      "file": "sector_3_10.npz",
+      "source_col": 1536,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 10,
+      "file": "sector_4_10.npz",
+      "source_col": 2048,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 10,
+      "file": "sector_5_10.npz",
+      "source_col": 2560,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 10,
+      "file": "sector_6_10.npz",
+      "source_col": 3072,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 10,
+      "file": "sector_7_10.npz",
+      "source_col": 3584,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 10,
+      "file": "sector_8_10.npz",
+      "source_col": 4096,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 10,
+      "file": "sector_9_10.npz",
+      "source_col": 4608,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 10,
+      "file": "sector_10_10.npz",
+      "source_col": 5120,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 10,
+      "file": "sector_11_10.npz",
+      "source_col": 5632,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 10,
+      "file": "sector_12_10.npz",
+      "source_col": 6144,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 10,
+      "file": "sector_13_10.npz",
+      "source_col": 6656,
+      "source_row": 5120,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 10,
+      "file": "sector_14_10.npz",
+      "source_col": 7168,
+      "source_row": 5120,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -330468.3070835827
+      ],
+      "valid_count": 170187
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 11,
+      "file": "sector_0_11.npz",
+      "source_col": 0,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 233985
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 11,
+      "file": "sector_1_11.npz",
+      "source_col": 512,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 11,
+      "file": "sector_2_11.npz",
+      "source_col": 1024,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 11,
+      "file": "sector_3_11.npz",
+      "source_col": 1536,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 11,
+      "file": "sector_4_11.npz",
+      "source_col": 2048,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 11,
+      "file": "sector_5_11.npz",
+      "source_col": 2560,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 11,
+      "file": "sector_6_11.npz",
+      "source_col": 3072,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 11,
+      "file": "sector_7_11.npz",
+      "source_col": 3584,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 11,
+      "file": "sector_8_11.npz",
+      "source_col": 4096,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 11,
+      "file": "sector_9_11.npz",
+      "source_col": 4608,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 11,
+      "file": "sector_10_11.npz",
+      "source_col": 5120,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 11,
+      "file": "sector_11_11.npz",
+      "source_col": 5632,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 11,
+      "file": "sector_12_11.npz",
+      "source_col": 6144,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 11,
+      "file": "sector_13_11.npz",
+      "source_col": 6656,
+      "source_row": 5632,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 11,
+      "file": "sector_14_11.npz",
+      "source_col": 7168,
+      "source_row": 5632,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -345828.3070835827
+      ],
+      "valid_count": 176990
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 12,
+      "file": "sector_0_12.npz",
+      "source_col": 0,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 236526
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 12,
+      "file": "sector_1_12.npz",
+      "source_col": 512,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 12,
+      "file": "sector_2_12.npz",
+      "source_col": 1024,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 12,
+      "file": "sector_3_12.npz",
+      "source_col": 1536,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 12,
+      "file": "sector_4_12.npz",
+      "source_col": 2048,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 12,
+      "file": "sector_5_12.npz",
+      "source_col": 2560,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 12,
+      "file": "sector_6_12.npz",
+      "source_col": 3072,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 12,
+      "file": "sector_7_12.npz",
+      "source_col": 3584,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 12,
+      "file": "sector_8_12.npz",
+      "source_col": 4096,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 12,
+      "file": "sector_9_12.npz",
+      "source_col": 4608,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 12,
+      "file": "sector_10_12.npz",
+      "source_col": 5120,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 12,
+      "file": "sector_11_12.npz",
+      "source_col": 5632,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 12,
+      "file": "sector_12_12.npz",
+      "source_col": 6144,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 12,
+      "file": "sector_13_12.npz",
+      "source_col": 6656,
+      "source_row": 6144,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 12,
+      "file": "sector_14_12.npz",
+      "source_col": 7168,
+      "source_row": 6144,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -361188.3070835827
+      ],
+      "valid_count": 183879
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 13,
+      "file": "sector_0_13.npz",
+      "source_col": 0,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 239063
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 13,
+      "file": "sector_1_13.npz",
+      "source_col": 512,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 13,
+      "file": "sector_2_13.npz",
+      "source_col": 1024,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 13,
+      "file": "sector_3_13.npz",
+      "source_col": 1536,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 13,
+      "file": "sector_4_13.npz",
+      "source_col": 2048,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 13,
+      "file": "sector_5_13.npz",
+      "source_col": 2560,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 13,
+      "file": "sector_6_13.npz",
+      "source_col": 3072,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 13,
+      "file": "sector_7_13.npz",
+      "source_col": 3584,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 13,
+      "file": "sector_8_13.npz",
+      "source_col": 4096,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 13,
+      "file": "sector_9_13.npz",
+      "source_col": 4608,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 13,
+      "file": "sector_10_13.npz",
+      "source_col": 5120,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 13,
+      "file": "sector_11_13.npz",
+      "source_col": 5632,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 13,
+      "file": "sector_12_13.npz",
+      "source_col": 6144,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 13,
+      "file": "sector_13_13.npz",
+      "source_col": 6656,
+      "source_row": 6656,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 13,
+      "file": "sector_14_13.npz",
+      "source_col": 7168,
+      "source_row": 6656,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -376548.3070835827
+      ],
+      "valid_count": 190475
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 14,
+      "file": "sector_0_14.npz",
+      "source_col": 0,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 242118
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 14,
+      "file": "sector_1_14.npz",
+      "source_col": 512,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 14,
+      "file": "sector_2_14.npz",
+      "source_col": 1024,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 14,
+      "file": "sector_3_14.npz",
+      "source_col": 1536,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 14,
+      "file": "sector_4_14.npz",
+      "source_col": 2048,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 14,
+      "file": "sector_5_14.npz",
+      "source_col": 2560,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 14,
+      "file": "sector_6_14.npz",
+      "source_col": 3072,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 14,
+      "file": "sector_7_14.npz",
+      "source_col": 3584,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 14,
+      "file": "sector_8_14.npz",
+      "source_col": 4096,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 14,
+      "file": "sector_9_14.npz",
+      "source_col": 4608,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 14,
+      "file": "sector_10_14.npz",
+      "source_col": 5120,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 14,
+      "file": "sector_11_14.npz",
+      "source_col": 5632,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 14,
+      "file": "sector_12_14.npz",
+      "source_col": 6144,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 14,
+      "file": "sector_13_14.npz",
+      "source_col": 6656,
+      "source_row": 7168,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 14,
+      "file": "sector_14_14.npz",
+      "source_col": 7168,
+      "source_row": 7168,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -391908.3070835827
+      ],
+      "valid_count": 197066
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 15,
+      "file": "sector_0_15.npz",
+      "source_col": 0,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 249735
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 15,
+      "file": "sector_1_15.npz",
+      "source_col": 512,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 15,
+      "file": "sector_2_15.npz",
+      "source_col": 1024,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 15,
+      "file": "sector_3_15.npz",
+      "source_col": 1536,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 15,
+      "file": "sector_4_15.npz",
+      "source_col": 2048,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 15,
+      "file": "sector_5_15.npz",
+      "source_col": 2560,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 232188
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 15,
+      "file": "sector_6_15.npz",
+      "source_col": 3072,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 187312
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 15,
+      "file": "sector_7_15.npz",
+      "source_col": 3584,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 187709
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 15,
+      "file": "sector_8_15.npz",
+      "source_col": 4096,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 211239
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 15,
+      "file": "sector_9_15.npz",
+      "source_col": 4608,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 15,
+      "file": "sector_10_15.npz",
+      "source_col": 5120,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 15,
+      "file": "sector_11_15.npz",
+      "source_col": 5632,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 15,
+      "file": "sector_12_15.npz",
+      "source_col": 6144,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 15,
+      "file": "sector_13_15.npz",
+      "source_col": 6656,
+      "source_row": 7680,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 15,
+      "file": "sector_14_15.npz",
+      "source_col": 7168,
+      "source_row": 7680,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -407268.3070835827
+      ],
+      "valid_count": 203662
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 16,
+      "file": "sector_0_16.npz",
+      "source_col": 0,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 252380
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 16,
+      "file": "sector_1_16.npz",
+      "source_col": 512,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 16,
+      "file": "sector_2_16.npz",
+      "source_col": 1024,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 16,
+      "file": "sector_3_16.npz",
+      "source_col": 1536,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 16,
+      "file": "sector_4_16.npz",
+      "source_col": 2048,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 16,
+      "file": "sector_5_16.npz",
+      "source_col": 2560,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 161117
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 16,
+      "file": "sector_6_16.npz",
+      "source_col": 3072,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 16,
+      "file": "sector_7_16.npz",
+      "source_col": 3584,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 16,
+      "file": "sector_8_16.npz",
+      "source_col": 4096,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 71273
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 16,
+      "file": "sector_9_16.npz",
+      "source_col": 4608,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 222720
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 16,
+      "file": "sector_10_16.npz",
+      "source_col": 5120,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 223092
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 16,
+      "file": "sector_11_16.npz",
+      "source_col": 5632,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 223286
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 16,
+      "file": "sector_12_16.npz",
+      "source_col": 6144,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 223744
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 16,
+      "file": "sector_13_16.npz",
+      "source_col": 6656,
+      "source_row": 8192,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 223992
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 16,
+      "file": "sector_14_16.npz",
+      "source_col": 7168,
+      "source_row": 8192,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -422628.3070835827
+      ],
+      "valid_count": 179451
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 17,
+      "file": "sector_0_17.npz",
+      "source_col": 0,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 255039
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 17,
+      "file": "sector_1_17.npz",
+      "source_col": 512,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 17,
+      "file": "sector_2_17.npz",
+      "source_col": 1024,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 17,
+      "file": "sector_3_17.npz",
+      "source_col": 1536,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 17,
+      "file": "sector_4_17.npz",
+      "source_col": 2048,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 17,
+      "file": "sector_5_17.npz",
+      "source_col": 2560,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 166256
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 17,
+      "file": "sector_6_17.npz",
+      "source_col": 3072,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 17,
+      "file": "sector_7_17.npz",
+      "source_col": 3584,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 17,
+      "file": "sector_8_17.npz",
+      "source_col": 4096,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 17,
+      "file": "sector_9_17.npz",
+      "source_col": 4608,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 17,
+      "file": "sector_10_17.npz",
+      "source_col": 5120,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 17,
+      "file": "sector_11_17.npz",
+      "source_col": 5632,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 17,
+      "file": "sector_12_17.npz",
+      "source_col": 6144,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 17,
+      "file": "sector_13_17.npz",
+      "source_col": 6656,
+      "source_row": 8704,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 17,
+      "file": "sector_14_17.npz",
+      "source_col": 7168,
+      "source_row": 8704,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -437988.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 18,
+      "file": "sector_0_18.npz",
+      "source_col": 0,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 257684
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 18,
+      "file": "sector_1_18.npz",
+      "source_col": 512,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 18,
+      "file": "sector_2_18.npz",
+      "source_col": 1024,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 18,
+      "file": "sector_3_18.npz",
+      "source_col": 1536,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 18,
+      "file": "sector_4_18.npz",
+      "source_col": 2048,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 18,
+      "file": "sector_5_18.npz",
+      "source_col": 2560,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 171397
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 18,
+      "file": "sector_6_18.npz",
+      "source_col": 3072,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 18,
+      "file": "sector_7_18.npz",
+      "source_col": 3584,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 18,
+      "file": "sector_8_18.npz",
+      "source_col": 4096,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 18,
+      "file": "sector_9_18.npz",
+      "source_col": 4608,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 18,
+      "file": "sector_10_18.npz",
+      "source_col": 5120,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 18,
+      "file": "sector_11_18.npz",
+      "source_col": 5632,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 18,
+      "file": "sector_12_18.npz",
+      "source_col": 6144,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 18,
+      "file": "sector_13_18.npz",
+      "source_col": 6656,
+      "source_row": 9216,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 18,
+      "file": "sector_14_18.npz",
+      "source_col": 7168,
+      "source_row": 9216,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -453348.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 19,
+      "file": "sector_0_19.npz",
+      "source_col": 0,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 260382
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 19,
+      "file": "sector_1_19.npz",
+      "source_col": 512,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 19,
+      "file": "sector_2_19.npz",
+      "source_col": 1024,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 19,
+      "file": "sector_3_19.npz",
+      "source_col": 1536,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 19,
+      "file": "sector_4_19.npz",
+      "source_col": 2048,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 262144
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 19,
+      "file": "sector_5_19.npz",
+      "source_col": 2560,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 176536
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 19,
+      "file": "sector_6_19.npz",
+      "source_col": 3072,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 19,
+      "file": "sector_7_19.npz",
+      "source_col": 3584,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 19,
+      "file": "sector_8_19.npz",
+      "source_col": 4096,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 19,
+      "file": "sector_9_19.npz",
+      "source_col": 4608,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 19,
+      "file": "sector_10_19.npz",
+      "source_col": 5120,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 19,
+      "file": "sector_11_19.npz",
+      "source_col": 5632,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 19,
+      "file": "sector_12_19.npz",
+      "source_col": 6144,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 19,
+      "file": "sector_13_19.npz",
+      "source_col": 6656,
+      "source_row": 9728,
+      "shape": [
+        512,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 19,
+      "file": "sector_14_19.npz",
+      "source_col": 7168,
+      "source_row": 9728,
+      "shape": [
+        512,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -468708.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 0,
+      "sector_y": 20,
+      "file": "sector_0_20.npz",
+      "source_col": 0,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8054872.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 16300
+    },
+    {
+      "sector_x": 1,
+      "sector_y": 20,
+      "file": "sector_1_20.npz",
+      "source_col": 512,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8070232.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 16384
+    },
+    {
+      "sector_x": 2,
+      "sector_y": 20,
+      "file": "sector_2_20.npz",
+      "source_col": 1024,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8085592.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 16682
+    },
+    {
+      "sector_x": 3,
+      "sector_y": 20,
+      "file": "sector_3_20.npz",
+      "source_col": 1536,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8100952.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 16896
+    },
+    {
+      "sector_x": 4,
+      "sector_y": 20,
+      "file": "sector_4_20.npz",
+      "source_col": 2048,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8116312.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 17061
+    },
+    {
+      "sector_x": 5,
+      "sector_y": 20,
+      "file": "sector_5_20.npz",
+      "source_col": 2560,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8131672.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 11900
+    },
+    {
+      "sector_x": 6,
+      "sector_y": 20,
+      "file": "sector_6_20.npz",
+      "source_col": 3072,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8147032.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 7,
+      "sector_y": 20,
+      "file": "sector_7_20.npz",
+      "source_col": 3584,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8162392.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 8,
+      "sector_y": 20,
+      "file": "sector_8_20.npz",
+      "source_col": 4096,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8177752.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 9,
+      "sector_y": 20,
+      "file": "sector_9_20.npz",
+      "source_col": 4608,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8193112.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 10,
+      "sector_y": 20,
+      "file": "sector_10_20.npz",
+      "source_col": 5120,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8208472.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 11,
+      "sector_y": 20,
+      "file": "sector_11_20.npz",
+      "source_col": 5632,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8223832.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 12,
+      "sector_y": 20,
+      "file": "sector_12_20.npz",
+      "source_col": 6144,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8239192.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 13,
+      "sector_y": 20,
+      "file": "sector_13_20.npz",
+      "source_col": 6656,
+      "source_row": 10240,
+      "shape": [
+        35,
+        512
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8254552.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    },
+    {
+      "sector_x": 14,
+      "sector_y": 20,
+      "file": "sector_14_20.npz",
+      "source_col": 7168,
+      "source_row": 10240,
+      "shape": [
+        35,
+        416
+      ],
+      "transform": [
+        30.0,
+        0.0,
+        8269912.398099138,
+        0.0,
+        -30.0,
+        -484068.3070835827
+      ],
+      "valid_count": 0
+    }
+  ],
+  "obstacle_semantics": "false = not marked; NOT evidence of safety"
+}
