@@ -41,7 +41,7 @@
 
 - Persaud, D. M., Putri, A. D. R., Muller, J.-P. (2021). *30-m HRSC DTM Mosaic of Gale Crater, Mars*, версія 1.0.0. Основне джерело висот для обох симуляцій. Мозаїку створено зі стереознімків HRSC місії Mars Express Європейського космічного агентства (ESA). [Набір даних, DOI 10.5281/zenodo.5808354](https://zenodo.org/records/5808354)
 - Супровідний опис HRSC-мозаїки. Відомості про проєкцію, роздільність, систему відліку та вихідні знімки. [Опис авторів набору](https://zenodo.org/records/5808354/files/Persaud_2021_HRSC_DTM-README.txt?download=1)
-- Fergason, R. L., Hare, T. M., Laura, J. (2018). *HRSC and MOLA Blended Digital Elevation Model at 200m V2*. Опорна модель, використана авторами HRSC-мозаїки. Поєднує дані HRSC та вимірювання MOLA місії NASA Mars Global Surveyor. Її внесок у поточну карту надходить через готову мозаїку. [Каталог USGS](https://astrogeology.usgs.gov/search/map/Mars/Topography/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp)
+- Fergason, R. L., Hare, T. M., Laura, J. (2018). *HRSC and MOLA Blended Digital Elevation Model at 200m V2*. Опорна модель, використана авторами HRSC-мозаїки. Поєднує дані HRSC та вимірювання MOLA місії NASA Mars Global Surveyor. Її внесок у поточну карту надходить через готову мозаїку. [Каталог USGS](https://fdp.astrogeology.usgs.gov/fdp/mars/#:~:text=HRSC%20%2F%20MOLA%20Blended%20Product)
 - Kim, J.-R., Muller, J.-P. (2009). *Multi-resolution topographic data extraction from Martian stereo imagery*. Метод обробки стереознімків, на який посилаються автори використаної мозаїки. [Публікація, DOI 10.1016/j.pss.2009.09.024](https://doi.org/10.1016/j.pss.2009.09.024)
 
 ### Алгоритм і засоби обробки
@@ -50,3 +50,7 @@
 - Rasterio. Документація читання та обробки ділянок растрових даних. [Windowed reading and writing](https://rasterio.readthedocs.io/en/stable/topics/windowed-rw.html)
 - NumPy. Документація обчислення градієнта, використаного для визначення ухилів. [numpy.gradient](https://numpy.org/doc/stable/reference/generated/numpy.gradient.html)
 - Plotly. Документація побудови тривимірної поверхні та відображення маршруту. [Mesh3d](https://plotly.com/python/3d-mesh/), [Scatter3d](https://plotly.com/python/reference/scatter3d/)
+
+
+### Використання ШІ
+- OpenAI, GPT-6 Astra було використано під час написання коду, пошуку інформації як необхідної для реалізації технічних рішень так і для пошуку необхідних даних NASA.
