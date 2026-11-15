@@ -1,3 +1,7 @@
+.venv/
+
+__pycache__/
+*.py[cod]
+
+Viktoriia/NASA_map/data/mola128_mola64_merge_90Nto90S_SimpleC_clon0.tif
 *.IMG
-.venv
-__pycache__

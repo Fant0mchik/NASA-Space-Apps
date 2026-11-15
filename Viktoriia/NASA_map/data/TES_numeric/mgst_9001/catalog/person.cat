@@ -1,0 +1,183 @@
+PDS_VERSION_ID                   = PDS3
+LABEL_REVISION_NOTE              = "2009-09-14 GEO:HEET, original." 
+RECORD_TYPE                      = STREAM
+
+OBJECT                           = PERSONNEL
+  PDS_USER_ID                    = NPUTZIG
+
+  OBJECT                         = PERSONNEL_INFORMATION
+    FULL_NAME                    = "NATHANIEL E. PUTZIG"
+    LAST_NAME                    = PUTZIG
+    TELEPHONE_NUMBER             = "7202400130"
+    ALTERNATE_TELEPHONE_NUMBER   = "3032507060"
+    FAX_NUMBER                   = "N/A"
+    PDS_ADDRESS_BOOK_FLAG        = "N"
+    INSTITUTION_NAME             = "SOUTHWEST RESEARCH INSTITUTE"
+    PDS_AFFILIATION              = "N/A"
+    NODE_ID                      = "N/A"
+    REGISTRATION_DATE            = "N/A"
+    ADDRESS_TEXT                 = "SOUTHWEST RESEARCH INSTITUTE
+                                   DEPARTMENT OF SPACE STUDIES
+                                   1050 WALNUT STREET
+                                   SUITE 300
+                                   BOULDER, CO 80302"
+  END_OBJECT                     = PERSONNEL_INFORMATION
+
+  OBJECT                         = PERSONNEL_ELECTRONIC_MAIL
+    ELECTRONIC_MAIL_ID           = "NATHANIEL@PUTZIG.COM"
+    ELECTRONIC_MAIL_TYPE         = "INTERNET"
+    PREFERENCE_ID                = 1
+  END_OBJECT                     = PERSONNEL_ELECTRONIC_MAIL
+
+END_OBJECT                       = PERSONNEL
+
+
+OBJECT                           = PERSONNEL
+  PDS_USER_ID                    = MMELLON
+
+  OBJECT                         = PERSONNEL_INFORMATION
+    FULL_NAME                    = "MICHAEL T. MELLON"
+    LAST_NAME                    = MELLON
+    TELEPHONE_NUMBER             = "3034921711"
+    ALTERNATE_TELEPHONE_NUMBER   = "N/A"
+    FAX_NUMBER                   = "N/A"
+    PDS_ADDRESS_BOOK_FLAG        = "N"
+    INSTITUTION_NAME             = "UNIVERSITY OF COLORADO"
+    PDS_AFFILIATION              = "N/A"
+    NODE_ID                      = "N/A"
+    REGISTRATION_DATE            = "N/A"
+    ADDRESS_TEXT                 = "UNIVERSITY OF COLORADO
+                                   LABORATORY FOR ATMOSPHERIC AND 
+                                     SPACE PHYSICS
+                                   1234 INNOVATION DRIVE
+                                   BOULDER, CO 80303-7814"
+  END_OBJECT                     = PERSONNEL_INFORMATION
+
+  OBJECT                         = PERSONNEL_ELECTRONIC_MAIL
+    ELECTRONIC_MAIL_ID           = "MELLON@LASP.COLORADO.EDU"
+    ELECTRONIC_MAIL_TYPE         = "INTERNET"
+    PREFERENCE_ID                = 1
+  END_OBJECT                     = PERSONNEL_ELECTRONIC_MAIL
+
+END_OBJECT                       = PERSONNEL
+
+
+OBJECT                           = PERSONNEL
+  PDS_USER_ID                    = THEET
+
+  OBJECT                         = PERSONNEL_INFORMATION
+    FULL_NAME                    = "TABATHA L. HEET"
+    LAST_NAME                    = HEET
+    TELEPHONE_NUMBER             = "3149353453"
+    ALTERNATE_TELEPHONE_NUMBER   = "N/A"
+    FAX_NUMBER                   = "3149354998"
+    PDS_ADDRESS_BOOK_FLAG        = "N"
+    INSTITUTION_NAME             = "WASHINGTON UNIVERSITY"
+    NODE_ID                      = "GEOSCIENCES"
+    PDS_AFFILIATION              = "NODE"
+    REGISTRATION_DATE            = "UNK"
+    ADDRESS_TEXT                 = "WASHINGTON UNIVERSITY
+                                   DEPT OF EARTH & PLANETARY SCIENCES
+                                   CAMPUS BOX 1169
+                                   ONE BROOKINGS DRIVE
+                                   ST. LOUIS, MO 63130-4899"
+  END_OBJECT                     = PERSONNEL_INFORMATION
+
+  OBJECT                         = PERSONNEL_ELECTRONIC_MAIL
+    ELECTRONIC_MAIL_ID           = "TLHEET@LEVEE.WUSTL.EDU"
+    ELECTRONIC_MAIL_TYPE         = "INTERNET"
+    PREFERENCE_ID                = 1
+  END_OBJECT                     = PERSONNEL_ELECTRONIC_MAIL
+
+END_OBJECT                       = PERSONNEL
+
+
+OBJECT                           = PERSONNEL
+  PDS_USER_ID                    = JWARD
+
+  OBJECT                         = PERSONNEL_INFORMATION
+    FULL_NAME                    = "JENNIFER G. WARD"
+    LAST_NAME                    = WARD
+    TELEPHONE_NUMBER             = "2402288202"
+    ALTERNATE_TELEPHONE_NUMBER   = "N/A"
+    FAX_NUMBER                   = "N/A"
+    PDS_ADDRESS_BOOK_FLAG        = "Y"
+    INSTITUTION_NAME             = "WASHINGTON UNIVERSITY"
+    NODE_ID                      = "GEOSCIENCES"
+    PDS_AFFILIATION              = "NODE"
+    REGISTRATION_DATE            = "UNK"
+    ADDRESS_TEXT                 = "WASHINGTON UNIVERSITY
+                                   DEPT OF EARTH & PLANETARY SCIENCES
+                                   CAMPUS BOX 1169
+                                   ONE BROOKINGS DRIVE
+                                   ST. LOUIS, MO 63130-4899"
+    END_OBJECT                   = PERSONNEL_INFORMATION
+
+  OBJECT                         = PERSONNEL_ELECTRONIC_MAIL
+    ELECTRONIC_MAIL_ID           = "WARD@WUNDER.WUSTL.EDU"
+    ELECTRONIC_MAIL_TYPE         = "INTERNET"
+    PREFERENCE_ID                = 1
+  END_OBJECT                     = PERSONNEL_ELECTRONIC_MAIL
+
+END_OBJECT                       = PERSONNEL
+
+OBJECT                           = PERSONNEL
+  PDS_USER_ID                    = "SSLAVNEY"
+
+  OBJECT                         = PERSONNEL_INFORMATION
+    FULL_NAME                    = "SUSAN H. SLAVNEY"
+    LAST_NAME                    = "SLAVNEY"
+    TELEPHONE_NUMBER             = "3149359295"
+    ALTERNATE_TELEPHONE_NUMBER   = "3149355679"
+    FAX_NUMBER                   = "3149354998"
+    INSTITUTION_NAME             = "WASHINGTON UNIVERSITY"
+    NODE_ID                      = "GEOSCIENCES"
+    PDS_AFFILIATION              = "NODE"
+    REGISTRATION_DATE            = 1988-11-01
+    PDS_ADDRESS_BOOK_FLAG        = "Y"
+    ADDRESS_TEXT                 = "WASHINGTON UNIVERSITY
+                                   DEPT OF EARTH & PLANETARY SCIENCES
+                                   CAMPUS BOX 1169
+                                   ONE BROOKINGS DRIVE
+                                   ST. LOUIS, MO 63130-4899"
+  END_OBJECT                     = PERSONNEL_INFORMATION
+
+  OBJECT                         = PERSONNEL_ELECTRONIC_MAIL
+    ELECTRONIC_MAIL_ID           = "SLAVNEY@WUNDER.WUSTL.EDU"
+    ELECTRONIC_MAIL_TYPE         = "INTERNET"
+    PREFERENCE_ID                = 1
+  END_OBJECT                     = PERSONNEL_ELECTRONIC_MAIL
+
+END_OBJECT                       = PERSONNEL
+
+
+OBJECT                           = PERSONNEL
+  PDS_USER_ID                    = "EGUINNESS"
+ 
+ OBJECT                          = PERSONNEL_INFORMATION
+   FULL_NAME                     = "EDWARD A. GUINNESS"
+   LAST_NAME                     = "GUINNESS"
+   TELEPHONE_NUMBER              = "3149355493"
+   ALTERNATE_TELEPHONE_NUMBER    = "3149355679"
+   FAX_NUMBER                    = "3149357361"
+   INSTITUTION_NAME              = "WASHINGTON UNIVERSITY"
+   NODE_ID                       = "GEOSCIENCES"
+   PDS_AFFILIATION               = "NODE"
+   REGISTRATION_DATE             = 1988-11-02
+   PDS_ADDRESS_BOOK_FLAG         = "Y"
+   ADDRESS_TEXT                  = "WASHINGTON UNIVERSITY 
+                                   DEPT OF EARTH & PLANETARY SCIENCES 
+                                   CAMPUS BOX 1169 
+                                   ONE BROOKINGS DRIVE 
+                                   ST. LOUIS, MO 63130-4899"
+ END_OBJECT                      = PERSONNEL_INFORMATION
+ 
+ OBJECT                          = PERSONNEL_ELECTRONIC_MAIL
+   ELECTRONIC_MAIL_ID            = "GUINNESS@WUNDER.WUSTL.EDU"
+   ELECTRONIC_MAIL_TYPE          = "INTERNET"
+   PREFERENCE_ID                 =  1
+ END_OBJECT                      = PERSONNEL_ELECTRONIC_MAIL
+ 
+END_OBJECT                      = PERSONNEL
+
+END

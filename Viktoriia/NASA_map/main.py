@@ -1,63 +1,16 @@
 
-import geopandas as gpd
-import matplotlib.pyplot as plt
+from pathlib import Path
+import runpy
+import webbrowser
 
-path = r"C:\Users\Victoria\Downloads\SIM3292_Global_Geology\SIM3292_Global_Geology.shp"
+PROJECT_DIR = Path(__file__).resolve().parent
+HTML_PATH = PROJECT_DIR / "output" / "mars_globe_3d.html"
 
-# Завантаження карти
-mars = gpd.read_file(path)
+# Create the interactive globe
+runpy.run_path(str(PROJECT_DIR / "globe_3d.py"), run_name="__main__")
 
-# Створення вікна
-fig, ax = plt.subplots(figsize=(16, 10))
-
-# Темне оформлення
-fig.patch.set_facecolor("#151719")
-ax.set_facecolor("#151719")
-
-# Відображення геологічних областей
-mars.plot(
-    ax=ax,
-    column="Unit",
-    categorical=True,
-    cmap="turbo",
-    edgecolor="#35251F",
-    linewidth=0.12,
-    legend=False
-)
-
-# Заголовок
-fig.suptitle(
-    "MARS // GLOBAL GEOLOGY",
-    fontsize=23,
-    color="#F2A36B",
-    fontweight="bold",
-    y=0.96
-)
-
-ax.set_title(
-    "NASA Geological Dataset | SIM3292",
-    fontsize=11,
-    color="#A9A9A9",
-    pad=18
-)
-
-# Прибираємо координатні осі
-ax.set_axis_off()
-
-# Налаштування відступів
-plt.subplots_adjust(
-    left=0.02,
-    right=0.98,
-    top=0.88,
-    bottom=0.03
-)
-
-# Збереження зображення
-plt.savefig(
-    "mars_geology_map.png",
-    dpi=300,
-    bbox_inches="tight",
-    facecolor=fig.get_facecolor()
-)
-
-plt.show()
+# Open the generated map in the browser
+if HTML_PATH.exists():
+    webbrowser.open(HTML_PATH.as_uri())
+else:
+    print("Not found")

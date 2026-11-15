@@ -1,0 +1,75 @@
+PDS_VERSION_ID        = PDS3
+RECORD_TYPE           = STREAM
+RECORD_BYTES          = 119
+FILE_RECORDS          = 4
+^INDEX_TABLE          = "INDEX.TAB"
+DATA_SET_ID           = "MGS-M-TES-5-TIMAP-V1.0"
+MISSION_NAME          = "MARS GLOBAL SURVEYOR"
+INSTRUMENT_NAME       = "THERMAL EMISSION SPECTROMETER"
+DESCRIPTION           = "This index file lists information
+   about each of the TES Thermal Inertia Maps data products
+   contained on this archive volume."
+
+OBJECT                = INDEX_TABLE
+  INTERCHANGE_FORMAT  = ASCII
+  ROW_BYTES           = 119
+  ROWS                = 4
+  COLUMNS             = 6
+  INDEX_TYPE          = SINGLE
+
+  OBJECT              = COLUMN
+    NAME              = VOLUME_ID
+    DATA_TYPE         = CHARACTER
+    START_BYTE        = 2
+    BYTES             = 9
+    DESCRIPTION       = "The volume on which the data product is
+                        stored."
+  END_OBJECT          = COLUMN
+
+  OBJECT              = COLUMN
+    NAME              = DATA_SET_ID
+    DATA_TYPE         = CHARACTER
+    START_BYTE        = 14
+    BYTES             = 22
+    DESCRIPTION       = "The data set on which the data product is
+                        stored."
+  END_OBJECT          = COLUMN
+
+  OBJECT              = COLUMN
+    NAME              = PATH_NAME
+    DATA_TYPE         = CHARACTER
+    START_BYTE        = 39
+    BYTES             = 5
+    DESCRIPTION       = "The directory path relative to the root directory
+                        excluding file name used to locate a file on the 
+                        online system."
+  END_OBJECT          = COLUMN
+
+  OBJECT              = COLUMN
+    NAME              = FILE_NAME
+    DATA_TYPE         = CHARACTER
+    START_BYTE        = 47
+    BYTES             = 30
+    DESCRIPTION       = "The filename of a data product."
+  END_OBJECT          = COLUMN
+
+  OBJECT              = COLUMN
+    NAME              = PRODUCT_ID
+    DATA_TYPE         = CHARACTER
+    START_BYTE        = 80
+    BYTES             = 26
+    DESCRIPTION       = "Unique identifier for a data product."
+  END_OBJECT          = COLUMN
+
+  OBJECT              = COLUMN
+    NAME              = PRODUCT_CREATION_TIME
+    DATA_TYPE         = TIME
+    START_BYTE        = 108
+    BYTES             = 10
+    DESCRIPTION       = "UTC date that a product was created, in the 
+                        format yyyy-mm-dd."
+  END_OBJECT          = COLUMN
+
+END_OBJECT            = INDEX_TABLE
+END
+

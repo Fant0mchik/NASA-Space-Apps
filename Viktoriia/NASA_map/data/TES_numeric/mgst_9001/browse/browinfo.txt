@@ -1,0 +1,33 @@
+PDS_VERSION_ID                     = PDS3
+RECORD_TYPE                        = STREAM
+OBJECT                             = TEXT
+  PUBLICATION_DATE                 = 2009-09-18
+  NOTE                             = "Description of the BROWSE
+     directory contents for a MGS TES-derived thermal inertia archive 
+     volume."
+END_OBJECT                         = TEXT
+END
+
+
+                   BROWSE Directory Contents
+
+The BROWSE directory contains colorized representations of the thermal 
+inertia maps.  A large (approximately 3.3 Mb) and small (approximately 
+0.15 Mb) version is available for both nightside and dayside thermal 
+inertia maps. In filenames "d" denotes dayside maps, "n" denotes nightside
+maps, "b" stands for bolometer, and "s" stands for small. Browse images
+have a west positive longitude label of 0-360 degrees.  Units for the 
+browse images are tiu (tiu = J/(m^2*K*sqrt(s)) ).
+
+
+dbmap2007.jpg -   3.3 Mb jpeg browse image of the daytime thermal inertia
+                  map (global_ti_day_2007)
+
+dbmap2007s.jpg -  149 Kb jpeg browse image of the daytime thermal inertia
+                  map (global_ti_day_2007)
+
+nbmap2007.jpg -   2.85 Mb jpeg browse image of the nighttime thermal 
+                  inertia map (global_ti_night_2007)
+
+nbmap2007s.jpg -  146 Kb jpeg browse image of the nighttime thermal 
+                  inertia map (global_ti_night_2007)

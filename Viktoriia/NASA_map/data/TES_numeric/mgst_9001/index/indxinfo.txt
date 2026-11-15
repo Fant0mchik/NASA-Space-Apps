@@ -1,0 +1,40 @@
+PDS_VERSION_ID                    = PDS3
+RECORD_TYPE                       = STREAM
+OBJECT                            = TEXT
+  PUBLICATION_DATE                = 2009-09-19
+  NOTE                            = "Description of the INDEX
+     directory contents for a MGS TES Thermal Inertia maps archive volume."
+END_OBJECT                        = TEXT
+END
+
+                    INDEX Directory Contents
+
+     The INDEX directory contains tabular index files, accompanied by
+detached PDS labels, for the TES-TImap data set.  The following files
+are found in this directory.
+
+INDXINFO.TXT - The file you are reading.
+
+INDEX.TAB -    The index table for data products on this volume.
+
+INDEX.LBL -    PDS label describing INDEX.TAB.
+
+
+                 Notes on Using the Index Tables
+
+     Each index table contains one row (record) for each data product
+on the volume.  The table is formatted so that it can be read directly
+into many data management systems.  All fields are separated by commas
+and character fields are enclosed in double quotation marks (").
+Character fields are left justified and numeric fields are right
+justified.  Each record ends with ASCII carriage return and line feed
+characters.  This allows the table to be treated as a fixed length
+record file on computers that support this file type and as a normal
+text file on other computers.
+
+     The PDS label file for each table describes the content and
+structure of the fields in the index table.  This description includes
+the name of each field, its format, and a brief definition.  The
+values for start byte and number of bytes listed in the label file do not
+include commas between fields or quotation marks surrounding character
+fields.

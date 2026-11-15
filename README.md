@@ -51,6 +51,17 @@
 - NumPy. Документація обчислення градієнта, використаного для визначення ухилів. [numpy.gradient](https://numpy.org/doc/stable/reference/generated/numpy.gradient.html)
 - Plotly. Документація побудови тривимірної поверхні та відображення маршруту. [Mesh3d](https://plotly.com/python/3d-mesh/), [Scatter3d](https://plotly.com/python/reference/scatter3d/)
 
+- Pillow. Документація бібліотеки для завантаження, обробки та зміни розміру растрових зображень. https://pillow.readthedocs.io/en/stable/
+- GeoPandas. Документація обробки та аналізу геопросторових векторних даних. https://geopandas.org/en/stable/
+- Matplotlib. Документація створення та налаштування двовимірних графіків і карт. https://matplotlib.org/stable/users/index.html
+- Python Software Foundation. Документація стандартної бібліотеки Python, зокрема модуля pathlib для роботи з файловою системою. https://docs.python.org/3/library/pathlib.html
+
+### Додаткові джерела даних та картографічні ресурси
+
+- Arizona State University (ASU). Mars Global Data Sets. Каталог даних про Марс, використаний для пошуку та отримання матеріалів для картографічної візуалізації. https://www.mars.asu.edu/data/
+- NASA. Mars Trek. Інтерактивний картографічний ресурс для перегляду та дослідження поверхні Марса. https://trek.nasa.gov/mars/#v=0.1&x=0&y=0&z=1&p=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A104905&d=&locale=&b=mars&e=-269.999994963537%2C-128.3203101063685%2C269.999994963537%2C128.3203101063685&sfz=&w=
+- California Institute of Technology, Murray Lab. CTX Data. Ресурс із зображеннями поверхні Марса, отриманими камерою Context Camera (CTX).  https://murray-lab.caltech.edu/CTX/
 
 ### Використання ШІ
 - OpenAI, GPT-6 Astra було використано під час написання коду, пошуку інформації як необхідної для реалізації технічних рішень так і для пошуку необхідних даних NASA.
+

@@ -1,0 +1,42 @@
+PDS_VERSION_ID                     = PDS3
+RECORD_TYPE                        = STREAM
+OBJECT                             = TEXT
+  PUBLICATION_DATE                 = 2009-09-02
+  NOTE                             = "Description of the CATALOG
+     directory contents for a MGS TES-derived thermal inertia archive 
+     volume."
+END_OBJECT                         = TEXT
+END
+
+
+                   CATALOG Directory Contents
+
+     The CATALOG directory contains high-level catalog objects for the
+MGS TES-derived thermal inertia archive volume.  The following files are 
+found in this directory.
+
+CATINFO.TXT -  The file you are reading.
+
+DATASET.CAT -  High-level catalog object for the MGS TES-derived
+               thermal inertia data set.
+
+DSMAP.CAT -    High-level catalog object for map projection 
+               referenced in TES-derived thermal inertia image
+               labels.
+
+INST.CAT -     High-level catalog object for the MGS TES
+               instrument.
+
+INSTHOST.CAT - High-level catalog object for the Mars Global
+               Surveyor spacecraft.
+
+
+MISSION.CAT -  High-level catalog object for the Mars Global
+               Surveyor Mission.
+
+PERSON.CAT -   High-level catalog object for personnel associated
+               with the MGS TES-derived thermal inertia archive.
+
+REF.CAT -      High-level catalog object for references cited in
+               the other catalog object files.
+

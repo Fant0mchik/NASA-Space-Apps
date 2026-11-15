@@ -1,0 +1,45 @@
+PDS_VERSION_ID                       = PDS3
+RECORD_TYPE                          = STREAM
+
+OBJECT                               = VOLUME
+  VOLUME_SERIES_NAME                 = "MISSION TO MARS"
+  VOLUME_SET_NAME                    = "MARS GLOBAL SURVEYOR TES-DERIVED 
+                                       THERMAL INERTIA"
+  VOLUME_SET_ID                      = "USA_NASA_PDS_MGST_9001"
+  VOLUME_NAME                        = "MARS GLOBAL SURVEYOR TES-DERIVED 
+                                       THERMAL INERTIA"
+  VOLUME_ID                          = MGST_9001
+  VOLUME_VERSION_ID                  = "VERSION 1"
+  PUBLICATION_DATE                   = 2009-09-02
+  VOLUMES                            = "UNK"
+  MEDIUM_TYPE                        = "ELECTRONIC"
+  VOLUME_FORMAT                      = "N/A"
+  DATA_SET_ID                        = "MGS-M-TES-5-TIMAP-V1.0"
+  DESCRIPTION                        = "This volume contains Mars
+     Global Surveyor TES-derived thermal inertia maps, along with
+     documentation and other ancillary information about the data
+     products."
+
+  OBJECT                             = DATA_PRODUCER
+    INSTITUTION_NAME                 = "SOUTHWEST RESEARCH INSTITUTE"
+    FACILITY_NAME                    = "DEPARTMENT OF SPACE STUDIES"
+    FULL_NAME                        = "NATHANIEL E. PUTZIG"
+    DISCIPLINE_NAME                  = GEOSCIENCES
+    ADDRESS_TEXT                     = "SOUTHWEST RESEARCH INSTITUTE
+                                        DEPARTMENT OF SPACE STUDIES
+                                        1050 WALNUT STREET
+                                        BOULDER, CO 80302"
+  END_OBJECT                         = DATA_PRODUCER
+
+  OBJECT                             = CATALOG
+    ^MISSION_CATALOG                 = "MISSION.CAT"
+    ^INSTRUMENT_HOST_CATALOG         = "INSTHOST.CAT"
+    ^INSTRUMENT_CATALOG              = "INST.CAT"
+    ^DATA_SET_CATALOG                = "DATASET.CAT"
+    ^PERSONNEL_CATALOG               = "PERSON.CAT"
+    ^REFERENCE_CATALOG               = "REF.CAT"
+    ^DATA_SET_MAP_PROJECTION_CATALOG = "DSMAP.CAT"
+  END_OBJECT                         = CATALOG
+
+END_OBJECT                           = VOLUME
+END
